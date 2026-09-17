@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cottage beside a pool">
+  <path d="M50 112 L100 70 L150 112 L150 150 L50 150 Z" fill="none" stroke="#ffffff" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>
+  <rect x="90" y="116" width="20" height="34" fill="#ffffff"/>
+  <path d="M20 172 Q50 158 80 172 Q110 186 140 172 Q170 158 190 172" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+</svg>

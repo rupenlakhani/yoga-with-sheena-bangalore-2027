@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Open-air pavilion with a lotus below">
+  <path d="M40 160 L40 100 Q40 58 100 48 Q160 58 160 100 L160 160" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="55" y1="100" x2="55" y2="160" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="145" y1="100" x2="145" y2="160" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="100" y1="48" x2="100" y2="28" stroke="#ffffff" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="100" cy="20" r="7" fill="#ffffff"/>
+  <path d="M68 176 Q100 154 132 176 Q100 192 68 176 Z" fill="#ffffff" fill-opacity="0.9"/>
+</svg>

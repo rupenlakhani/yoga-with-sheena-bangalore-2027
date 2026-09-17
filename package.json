@@ -1,0 +1,13 @@
+{
+  "name": "yoga-with-sheena-bangalore-2027",
+  "version": "1.0.0",
+  "description": "Bangalore Retreat: October 2027 | Yoga with Sheena",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,5 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Sun rising over rolling hills">
+  <circle cx="100" cy="72" r="28" fill="#ffffff" fill-opacity="0.95"/>
+  <path d="M0 150 Q50 102 100 140 Q150 102 200 150 L200 200 L0 200 Z" fill="#ffffff" fill-opacity="0.85"/>
+  <path d="M0 172 Q60 132 120 166 Q160 142 200 170 L200 200 L0 200 Z" fill="#ffffff" fill-opacity="0.55"/>
+</svg>

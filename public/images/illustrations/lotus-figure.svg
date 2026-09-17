@@ -1,0 +1,8 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stylised figure seated in a meditation pose">
+  <circle cx="100" cy="100" r="94" fill="none" stroke="#ffffff" stroke-width="3" stroke-opacity="0.5"/>
+  <circle cx="100" cy="62" r="15" fill="#ffffff"/>
+  <path d="M100 80 Q72 96 66 120 Q90 111 100 120 Q110 111 134 120 Q128 96 100 80 Z" fill="#ffffff"/>
+  <path d="M66 120 Q42 134 47 149 Q66 140 78 128 Z" fill="#ffffff"/>
+  <path d="M134 120 Q158 134 153 149 Q134 140 122 128 Z" fill="#ffffff"/>
+  <path d="M78 128 Q76 149 100 154 Q124 149 122 128 Q100 138 78 128 Z" fill="#ffffff"/>
+</svg>
