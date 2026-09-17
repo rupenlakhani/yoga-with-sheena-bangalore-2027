@@ -7,6 +7,7 @@
   --color-navy-dark: #0a1530;
   --color-gold: #eab308;
   --color-gold-light: #f6d675;
+  --color-gold-text: #9c6300;
   --color-charcoal: #2c2620;
   --color-white: #ffffff;
   --font-serif: 'Libre Baskerville', 'Georgia', serif;
@@ -51,7 +52,7 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   font-size: 0.78rem;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   font-weight: 600;
 }
 
@@ -62,6 +63,44 @@ h1, h2, h3, h4 {
 }
 
 /* ---------- Header ---------- */
+
+/* ---------- Disclaimer bar ---------- */
+
+.disclaimer-bar {
+  background: var(--color-gold);
+  color: var(--color-navy-dark);
+  text-align: center;
+  padding: 16px 20px;
+  border-bottom: 3px solid var(--color-navy-dark);
+}
+
+.disclaimer-bar p {
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  max-width: var(--max-width);
+}
+
+.disclaimer-bar p::before {
+  content: '⚠️ ';
+}
+
+.disclaimer-bar a {
+  color: var(--color-navy-dark);
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+.disclaimer-bar a:hover {
+  color: var(--color-white);
+}
+
+@media (max-width: 600px) {
+  .disclaimer-bar p {
+    font-size: 0.88rem;
+  }
+}
 
 .site-header {
   position: sticky;
@@ -188,20 +227,21 @@ h1, h2, h3, h4 {
   border-radius: 999px;
   border: 1px solid var(--color-gold);
   background: var(--color-gold);
-  color: var(--color-white);
+  color: var(--color-navy-dark);
   font-family: var(--font-sans);
   font-size: 0.85rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 600;
-  transition: transform 0.2s ease, background 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
 
 .btn:hover {
   transform: translateY(-2px);
   background: var(--color-navy);
   border-color: var(--color-navy);
+  color: var(--color-white);
 }
 
 .btn-outline {
@@ -397,7 +437,7 @@ section.tight {
   font-family: var(--font-sans);
   font-size: 0.75rem;
   letter-spacing: 0.1em;
-  color: var(--color-gold);
+  color: var(--color-gold-text);
   text-transform: uppercase;
   flex-shrink: 0;
 }
@@ -710,9 +750,15 @@ section.tight {
   max-width: 700px;
   margin: 0 auto;
   background: var(--color-white);
+  color: var(--color-charcoal);
   border-radius: 14px;
   padding: 36px 40px;
   border: 1px solid rgba(234,179,8,0.2);
+}
+
+.cta .booking-box p,
+.cta .booking-box strong {
+  color: var(--color-charcoal);
 }
 
 .booking-box dl {
@@ -775,7 +821,7 @@ section.tight {
   flex-wrap: wrap;
   gap: 10px;
   font-size: 0.8rem;
-  color: #94897a;
+  color: #b8ab98;
 }
 
 /* ---------- Responsive ---------- */
